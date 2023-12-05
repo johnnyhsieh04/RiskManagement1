@@ -1,1 +1,32 @@
-{}
+{
+    "[development]": {
+        "auth": {
+            "passport": {
+                "strategy": "mock",
+                "users": {
+                    "johnny.pank@hotmail.com": {
+                        "password": "12345",
+                        "ID": "johnnypank",
+                        "userAttributes": {
+                            "email": "johnny.pank@hotmail.com"
+                        },
+                        "roles": [
+                            "RiskViewer"
+                        ]
+                    },
+
+                    "johnnyhsieh@pluscircle.com": {
+                        "password": "67890",
+                        "ID": "johnnyhsieh",
+                        "userAttributes": {
+                            "email": "johnnyhsieh@pluscircle.com"
+                        },
+                        "roles": [
+                            "RiskManager"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
